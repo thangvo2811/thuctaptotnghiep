@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+php_flag output_buffering on
+
+# Rewrite mode tin tuc #
+RewriteRule ^index.html index.php
+RewriteRule ^edit.html edit.php?masp=item['masp']
